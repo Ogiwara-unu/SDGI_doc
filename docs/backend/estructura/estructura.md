@@ -49,11 +49,49 @@ Esta página implementa la lógica necesaria para visualizar, eliminar, buscar, 
 ## marca-modelos ( 17 )
 Esta página habilita la creación y asociación inmediata de una marca a un modelo, con el objetivo de optimizar el diseño de la aplicación.
 
-## Tarea Checklist ( 20 )
-Este módulo se especializa en definir un checklist, que es básicamente una lista de tareas que se realizarán durante el mantenimiento de un dispositivo. Dichas tareas están determinadas por el tipo de dispositivo al que se le realizará el mantenimiento.
+## Tareas Checklist ( 20 )
+Esta página habilita la creación y asociación de las tareas que tiene cada dispositivo dentro de su respectivo Checklist.
 
 ## Add_atributo_form ( 21 )
-Esta página implementa la lógica necesaria para añadir o eliminar atributos mediante una tabla, la cual muestra la información del dispositivo una vez que este ha sido seleccionado.
+Esta página habilita la creación y asociación de los atributos a su debido dispositivo, con fin de optimizar la asignacion de atributos a cada dispositivo.
 
 ## Add_tipo_software_form ( 42 )
-Este formulario permite añadir fácilmente un nuevo tipo de software cuando sea necesario, facilitando así la gestión de los softwares presentes en el sistema.
+Esta página habilita la creación de los tipos de software.
+
+## Gestiones_MD ( 43 )
+Esta página habilita la creación, asignación, gestión y asociación de los activos asi que permite el mantenimiento de los empleados agregados. Por la parte de gestión y asignación esta pagina nos permite facil acceso en la parte visual asi como, facil gestión en todas las asignaciones de dispositivos, accesorios, etc.
+
+## Mantenimiento empleado ( 44 )
+Esta pagina nos despliega información sobre el empleado asi como: Usuario, Correo, Jefe, etc.
+
+## Gestión dispositivo ( 45 )
+
+En esta pagina podemos asignar un dispositivo a un empleado.
+
+## Gestión radios ( 46 )
+
+En esta pagina podemos asignar un radio a un empleado.
+
+## Gestión accesorio ( 47 )
+
+En esta pagina podemos asignar un accesorio a un empleado.
+
+## Gestión Software ( 48 )
+
+En esta pagina podemos asignar un software a un empleado.
+
+## Gestión dispositivo ( 49 )
+
+Esta página habilita la creación, asignación, gestión y asociación de los mantenimientos lo cual permita tener una gestión muy sencilla de cada mantemiento ya que este apartado se encarga de crear las citas de cada mantenimiento de forma automatica asi como llevar el checklist de todas las tareas que se deben de realizar para un dispositivo. Tambien se asigna la persona encarga del mantenimiento asi como el tipo de mantenimiento a realizar ya sea preventivo o correctivo.
+
+## Inventario Dispositivo ( 55 )
+
+Esta pagina nos despliega todo tipo informacion sobre el dispositivo que esta asignado a cada respectivo mantenimiento nos muestra datos tales como: Estado, Serial, Fecha ingreso, Notas, entre otra muchas mas informacion.
+
+## Registro mantenimiento ( 56 )
+
+Esta pagina nos permite ver un historial de todos los mantenimientos que han sido realizados para un dispositivo en especifico, nos muestra informacion relevante asi como es Fecha, Tecnico, Estado, Dispositivo, etc. Tambien nos permite editar los registros ya creados, asi como tambien nos permite agregar nuevos mantenimientos para cada dispositivo
+
+## Login page ( 9999 )
+
+Esta es la pagina donde el usuario inicia sesion al sistema.
