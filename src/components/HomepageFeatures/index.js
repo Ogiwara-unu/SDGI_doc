@@ -2,44 +2,48 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+import catsaDescrip from '@site/static/img/catsa-descrip.jpg';
+import catsaMision from '@site/static/img/catsa-mision.jpg';
+import catsaVision from '@site/static/img/catsa-vision.jpg';
+
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Objetivo  General',
+    image: catsaDescrip,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Gestionar los procesos que se llevan a cabo en el departamento de informática desde
+        cualquier dispositivo (móvil o computadora).
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Visión',
+    image: catsaVision,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Seremos la empresa líder en productividad y rentabilidad de la agroindustria azucarera nacional.
       </>
     ),
   },
   {
-    title: 'WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Misión',
+    image: catsaMision,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Somos una empresa agroindustrial que transforma la caña de azúcar de manera sostenible, 
+        en productos que generan bienestar a las partes interesadas.
       </>
     ),
   },
+  
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureImg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

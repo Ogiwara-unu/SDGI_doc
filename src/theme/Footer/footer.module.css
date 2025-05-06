@@ -1,0 +1,42 @@
+.customFooter {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .topSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logoSection {
+    flex: 1 1 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logoSection img {
+    max-height: 100px;
+    max-width: 100%;
+  }
+  
+  .infoSection {
+    flex: 1 1 250px;
+    margin: 1rem 0;
+  }
+  
+  .bottomSection {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+  }
+  
+  .bottomSection a {
+    color: #097f44;
+    text-decoration: none;
+  }
+  
