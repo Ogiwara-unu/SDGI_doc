@@ -26,6 +26,26 @@ const sidebars = {
       id: 'backend/estructura/estructura',
       label : 'Estructura del proyecto',
     },
+    {
+      type: 'doc',
+      id: 'backend/requerimientos/requerimientos',
+      label : 'Requerimientos',
+    },
+    {
+      type: 'doc',
+      id: 'backend/ejecucion/ejecucion',
+      label : 'Ejecución',
+    },
+    {
+      type: 'doc',
+      id: 'backend/bd/bd',
+      label : 'Base de datos',
+    },
+    {
+      type: 'doc',
+      id: 'backend/testing/testing',
+      label : 'Testing',
+    },
   ],   
 };
 

@@ -25,3 +25,26 @@ Permite visualizar, modificar, borrar, insertar y filtrar los accesorios de los 
 ## Add_empleados_form ( 8 )
 Aquí se solicita información relevante del empleado, como el número de empleado, nombre de usuario, correo electrónico, jefe y departamento, con la finalidad de agregarlo al SDGI.
 
+## Tipo_dispositivo ( 9 )
+Este módulo permite gestionar los diferentes tipos de dispositivos con los que trabaja CATSA. En este caso, esta pestaña cuenta con una característica particular: permite agregar una periodicidad que habilita la programación de mantenimientos para los dispositivos según su tipo.
+
+## Add_marca_form ( 11 )
+Este formulario permite la inserción de los datos de una marca en el SDGI.
+
+## Add_modelo_form ( 12 )
+Este formulario permite la inserción de los datos de un modelo de dispositivo en el SDGI.
+
+## inventario_marcas ( 13 )
+Esta página implementa la lógica necesaria para gestionar las diferentes marcas de dispositivos presentes en el SDGI.
+
+## inventario_modelos ( 14 )
+Esta página implementa la lógica necesaria para gestionar las diferentes modelos de dispositivos presentes en el SDGI.
+
+## Tipo_accesorio ( 15 )
+Este módulo permite gestionar los diferentes tipos de accesorios con los que trabaja CATSA, los cuales hacen referencia exclusivamente a accesorios de radios.
+
+## Tipo_software ( 16 )
+Esta página implementa la lógica necesaria para visualizar, eliminar, buscar, filtrar y modificar los diferentes tipos de software utilizados por los empleados de CATSA.
+
+## marca-modelos ( 17 )
+Esta página habilita la creación y asociación inmediata de una marca a un modelo, con el objetivo de optimizar el diseño de la aplicación.
