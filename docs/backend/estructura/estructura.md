@@ -48,3 +48,12 @@ Esta página implementa la lógica necesaria para visualizar, eliminar, buscar, 
 
 ## marca-modelos ( 17 )
 Esta página habilita la creación y asociación inmediata de una marca a un modelo, con el objetivo de optimizar el diseño de la aplicación.
+
+## Tarea Checklist ( 20 )
+Este módulo se especializa en definir un checklist, que es básicamente una lista de tareas que se realizarán durante el mantenimiento de un dispositivo. Dichas tareas están determinadas por el tipo de dispositivo al que se le realizará el mantenimiento.
+
+## Add_atributo_form ( 21 )
+Esta página implementa la lógica necesaria para añadir o eliminar atributos mediante una tabla, la cual muestra la información del dispositivo una vez que este ha sido seleccionado.
+
+## Add_tipo_software_form ( 42 )
+Este formulario permite añadir fácilmente un nuevo tipo de software cuando sea necesario, facilitando así la gestión de los softwares presentes en el sistema.
